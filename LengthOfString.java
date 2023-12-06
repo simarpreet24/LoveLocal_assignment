@@ -2,6 +2,7 @@
 A word is a maximal 
 substring consisting of non-space characters only.
 */
+import java.util.Scanner;
 class LengthOfString{
 	public int lengthOfLastWord(String s){
 		String trimmed_s=s.trim();
@@ -16,6 +17,11 @@ class LengthOfString{
 		}
 		return count;
 	}
+	public static void main(String[] args){
+		Scanner sc= new Scanner(System.in);
+		System.out.println("Enter a string: ");
+		String s= sc.nextLine();
+		lengthOfLastWord(s);
 }
 /* Explanation and algorithm of Length Of Last Word in a string:
 
