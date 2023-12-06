@@ -22,6 +22,7 @@ class LengthOfString{
 		System.out.println("Enter a string: ");
 		String s= sc.nextLine();
 		lengthOfLastWord(s);
+	}
 }
 /* Explanation and algorithm of Length Of Last Word in a string:
 
