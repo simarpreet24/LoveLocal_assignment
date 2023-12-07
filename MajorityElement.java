@@ -70,5 +70,5 @@ Next, we count the occurences of both the elements in the array.
 Further, we check if the occurences are greater tha n/3,  then we return the list of the majority elements.
 In the main function, we take the user input in form of a string as it easy to take it as a string and then split it into an array of elements.
 An instance of the MajorityElements class is created in order to use the method that was created to before.
-The function is called and we get our output in form of a list.
+The function is called and we get our output in the form of a list.
   */
