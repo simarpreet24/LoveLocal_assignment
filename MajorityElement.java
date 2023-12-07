@@ -63,5 +63,12 @@ We start by creating a function to find the majority elements which makes use of
 A list is created to store the result. 
 We initialize two elements and the number of times they occur with the count variable to 0. 
 We start by iterating through the nums array which is the input array, if the number matches our first set element then we increment count1. similarly for element2.
-If the value of count1 is 0 that means there are no occurences of the number that we set as element1. we then set element1= current number.
+If the value of count1 is 0 that means there are no occurences of the number that we set as element1. we then set element1= current number. 
+Similarly for element2.
+If none of the conditions are met that means the current number does not match any element. Therefore we decrement both count1 and count2.
+Next, we count the occurences of both the elements in the array.
+Further, we check if the occurences are greater tha n/3,  then we return the list of the majority elements.
+In the main function, we take the user input in form of a string as it easy to take it as a string and then split it into an array of elements.
+An instance of the MajorityElements class is created in order to use the method that was created to before.
+The function is called and we get our output in form of a list.
   */
