@@ -59,5 +59,9 @@ public class MajorityElements {
     }
 }
 /*Explanation for the code:
-We start by creating a function to find the majority elements 
+We start by creating a function to find the majority elements which makes use of the boyer moore voting algorithm.
+A list is created to store the result. 
+We initialize two elements and the number of times they occur with the count variable to 0. 
+We start by iterating through the nums array which is the input array, if the number matches our first set element then we increment count1. similarly for element2.
+If the value of count1 is 0 that means there are no occurences of the number that we set as element1. we then set element1= current number.
   */
